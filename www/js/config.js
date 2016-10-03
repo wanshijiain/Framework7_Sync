@@ -20,6 +20,6 @@ AngularApp.run(function(){
 })
 
 AngularApp.config(
-window.location.hash="#!/templates/home/home.html";
+window.location.hash="#!/templates/home/home.html"
 
 );

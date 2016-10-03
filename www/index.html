@@ -22,14 +22,17 @@
         <title>Demo App</title>
     </head>
     <body ng-cloak ng-controller="RootCtrl">
-
-
-
-
-
-
-
-
+     <div class="statusbar-overlay"></div>
+     <div class="panel-overlay"></div>
+     <panel-left></panel-left>
+     <panel-right></panel-right>
+     <div class="views">
+       <div class="view view-main">
+          <div class="pages navbar-fixed">
+               <!-- Dynamic Pages -->
+          </div>
+        </div>
+     </div>
 
         <!-- Jquery + Angular -->
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -41,14 +44,15 @@
         <!-- Custom Scripts -->
           <!-- Root CTRL -->
              <script type="text/javascript" src="js/config.js"></script>
-             <script type="text/javascript" src="js/controller.js"></script>
+            <!-- Root Controller -->
+             <script type="text/javascript" src="js/controllers.js"></script>
              <script type="text/javascript" src="js/services.js"></script>
              <script type="text/javascript" src="js/directives.js"></script>
-             <script type="text/javascript" src="js/filter.js"></script>
+             <script type="text/javascript" src="js/filters.js"></script>
 
         <!-- Cordova JS -->
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="bower_components/ngCordova/dist/ng-cordova.js"></script>
+        <!-- <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="bower_components/ngCordova/dist/ng-cordova.js"></script> -->
 
         <!-- Cordava Js end -->
 
